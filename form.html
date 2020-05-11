@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+</head>
+<body>
+</br>
+    <div style="margin-left: 30% ;">
+        <img src="Saylani-logo.png" height="6%" width="60%">
+    
+    <p style="color: blueviolet; font-size: 35px; text-underline-position: below; font-family: Arial, Helvetica, sans-serif;">
+        <b>
+        <u>
+                STUDENT REGISTRATION FORM
+        </u>
+        </b>
+    </p>
+</div>
+    <div style="width:95%; background-color: blueviolet; height: 100%; margin-left: 35px;">
+        <form method="POST" action="submit.html" style="margin-left: 60px; font-size: 25px; color: white;">
+            </br>
+        </br>
+            <div style="">
+                <label>
+                    First Name         
+                </label>
+                <input type="text" name="fname" placeholder="  Enter first Name" required style="font-size: 20px; margin-left: 110px;">
+                   (max 30 characters a-z and A-Z) 
+            </br>
+        </br>
+        <label>
+                Last Name         
+            </label>
+            <input type="text" name="lname" placeholder="  Enter last Name" required style="font-size: 20px; margin-left: 110px;">
+               (max 30 characters a-z and A-Z) 
+        </br>
+    </br>
+    <label>
+            DATE OF BIRTH       
+        </label>
+        <input type="date" name="dob" placeholder="" required style="font-size: 20px; margin-left: 40px;">
+           
+    </br>
+</br>
+<label>
+        EMAIL ID         
+    </label>
+    <input type="email" name="email" placeholder="  Enter email address" required style="font-size: 20px; margin-left: 110px;">
+       
+</br>
+</br>
+<label>
+        MOBILE NUMBER        
+    </label>
+    <input type="text" name="fname" placeholder="Enter mobile number" required style="font-size: 20px; margin-left: 10px;">
+       (10 digit number) 
+</br>
+</br>
+<label>
+        GENDER       
+    </label>
+    <input type="radio" name="gender" value="male" style=" margin-left: 110px;"> Male
+    <input type="radio" name="gender" value="female" style=" margin-left: 30px;"> Female
+      
+</br>
+</br>
+<span>
+<label>
+        ADDRESS       
+    </label>
+</span>
+    <textarea style="height: 90px; width: 33%; margin-left: 100px;">
+
+    </textarea>
+</br>
+</br>
+<label>
+        CITY        
+    </label>
+    <input type="text" name="city" placeholder="Enter city name" required style="font-size: 20px; margin-left: 160px;">
+       (max 30 characters a-z and A-Z)
+</br>
+</br>
+<label>
+       PINCODE       
+    </label>
+    <input type="text" name="pincode" placeholder="Enter pincode" required style="font-size: 20px; margin-left: 110px;">
+       (6 digit number) 
+</br>
+</br>
+<label>
+        STATE       
+    </label>
+    <input type="text" name="state" placeholder="Enter state" required style="font-size: 20px; margin-left: 145px;">
+    (max 30 characters a-z and A-Z)
+</br>
+</br>
+<label>
+    COUNTRY    
+    </label>
+    <input type="text" name="country" placeholder="Enter country" required style="font-size: 20px; margin-left: 100px;">
+</br>
+</br>
+<label style="margin-right: 110px;">
+        HOBBIES      
+    </label>
+    Driving<input type="checkbox" name="hobbies" value="driving" style=" margin-right: 30px;">
+    Singing<input type="checkbox" name="hobbies" value="singing" style=" margin-right: 30px;"> 
+    Dancing<input type="checkbox" name="hobbies" value="dancing" style=" margin-right: 30px;"> 
+    Sketching<input type="checkbox" name="hobbies" value="sketching" style=" margin-right: 30px;"> 
+</br>
+    <span style="margin-left: 220px;">Others</span><input type="checkbox" name="hobbies" value="Others" style=" margin-right: 10px;">
+    <input type="text" name="hobbies" > 
+</br>
+<div>
+   <span>
+   </br>
+    <label for="Qualification"> Qualification </label>
+    <table style="width: 75%; margin-left: 220px; margin-top: -30px; font-size: 25px;">
+        <tr style="text-align: center;">
+            <td>
+                S. No.
+            </td>
+            <td>
+                Examination
+            </td>
+            <td>
+                Board
+            </td>
+            <td>
+                Percentage
+            </td>
+            <td>
+                Year of Passing
+            </td>
+        </tr>
+        <tr>
+            <td>
+                1.
+            </td>
+            <td>
+                Class X
+            </td>
+            <td>
+                <input type="text" name="Xboard" style="font-size: 18px;">
+            </td>
+            <td>
+                    <input type="text" name="Xper" style="font-size: 18px;">
+            </td>
+            <td>
+                <input type="text" name="Xyear" style="font-size: 18px;">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                2.
+            </td>
+            <td>
+                Class XII
+            </td>
+            <td>
+                    <input type="text" name="XIIboard" style="font-size: 18px;">
+            </td>
+            <td>
+                    <input type="text" name="XIIper" style="font-size: 18px;">
+            </td>
+            <td>
+                    <input type="text" name="XIIyear" style="font-size: 18px;">
+            </td>
+        </tr>
+        <tr>
+                <td>
+                    3.
+                </td>
+                <td>
+                    Graduation
+                </td>
+                <td>
+                    <input type="text" name="gboard" style="font-size: 18px;">
+                </td>
+                <td>
+                        <input type="text" name="gper" style="font-size: 18px;">
+                </td>
+                <td>
+                    <input type="text" name="gyear" style="font-size: 18px;">
+                </td>
+            </tr>
+            <tr>
+                    <td>
+                        4.
+                    </td>
+                    <td>
+                        Masters
+                    </td>
+                    <td>
+                        <input type="text" name="m_board" style="font-size: 18px;">
+                    </td>
+                    <td>
+                            <input type="text" name="m_per" style="font-size: 18px;">
+                    </td>
+                    <td>
+                        <input type="text" name="m_year" style="font-size: 18px;">
+                    </td>
+                </tr>
+                <tr>
+                        <td>
+                            
+                        </td>
+                        <td>
+                            
+                       </td>
+                        <td style="text-align: center;">
+                            (10 character max.)
+                        </td>
+                        <td style="text-align: center;">
+                                (upto 2 decimal)
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+    </table>
+   </span> 
+</div>
+<label style="margin-right: 60px;">
+    COURSES </br> APPLIED FOR
+</label>
+B.CA<input type="radio" name="gender" value="male" style=" margin-right: 50px;"> 
+B.Com<input type="radio" name="gender" value="female" style=" margin-right: 50px;"> 
+B.Sc<input type="radio" name="gender" value="male" style=" margin-right: 50px;"> 
+B.A<input type="radio" name="gender" value="female" style=" margin-right: 50px;"> 
+            </div>
+        </br>
+    
+<div style="margin-left: 40%;">
+<button type="submit" href="submit.html" style="font-size: 20px;">
+    Submit
+</button>
+<button type="reset" style="font-size: 20px;">
+    Reset
+</button>
+</div>
+</br>
+</br>
+        </form>
+    </div>
+</body>
+</html>
